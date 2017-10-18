@@ -14,7 +14,7 @@ export default class SiteDocument extends Document {
           <meta name='viewport' content='initial-scale=1.0, width=device-width' />
           <link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/sanitize.css/2.0.0/sanitize.min.css' />
           <link rel='stylesheet' type='text/css' href='https://cdnjs.cloudflare.com/ajax/libs/tachyons/4.7.4/tachyons.min.css' />
-          <link href='https://fonts.googleapis.com/css?family=Roboto:300|Montserrat:300' rel='stylesheet' />
+          <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto:300|Montserrat:300' />
           {styleTags}
         </Head>
         <body>
