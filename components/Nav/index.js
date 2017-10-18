@@ -9,8 +9,8 @@ const Wrapper = styled.nav`
   background: #46a049;
 
   a {
-    padding: 0 45px;
-    line-height: 2rem;
+    padding: 0 35px;
+    line-height: 2.3rem;
     font-family: 'Roboto', sans-serif;
     color: #FFF;
     text-decoration: none;
