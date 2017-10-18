@@ -12,6 +12,6 @@ export default ({ children, title = 'Akceed Career Blog' }) => (
       <Nav />
     </header>
     <main>{ children }</main>
-    <Footer>Footer</Footer>
+    <Footer>Footer Text</Footer>
   </Wrapper>
 )
