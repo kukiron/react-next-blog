@@ -1,5 +1,5 @@
 # React-Next-Career-Blog
-[![Build Status](https://travis-ci.org/kukiron/react-next-career-blog.svg?branch=master)](https://travis-ci.org/kukiron/react-next-career-blog)
+[![Build Status](https://travis-ci.org/kukiron/react-next-career-blog.svg?branch=master)](https://travis-ci.org/kukiron/react-next-career-blog) [![Maintainability](https://api.codeclimate.com/v1/badges/8f63e62d0fe2f30dc3d9/maintainability)](https://codeclimate.com/github/kukiron/react-next-career-blog/maintainability) [![bitHound Overall Score](https://www.bithound.io/github/kukiron/react-next-career-blog/badges/score.svg)](https://www.bithound.io/github/kukiron/react-next-career-blog)
 
 Production ready boilerplate for creating a blog with Next, React, and Styled Component.
 
