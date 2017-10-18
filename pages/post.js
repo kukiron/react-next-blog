@@ -34,11 +34,13 @@ const PostPage = ({ post }) =>
   <Layout>
     <Wrapper>
       <h1>
-        {post.title}
+        {post.title.rendered}
       </h1>
-      <p>
-        {post.body}
-      </p>
+      <div
+        dangerouslySetInnerHTML={{
+          __html: post.content.rendered
+        }}
+      />
     </Wrapper>
   </Layout>
 
