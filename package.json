@@ -9,6 +9,9 @@
     "lint": "standard 'api/*' 'components/*' 'layouts/*' 'pages/*' 'styles/*' 'routes.js' 'server.js'",
     "precommit": "lint-staged"
   },
+  "engines": {
+    "node": ">=6.0"
+  },
   "dependencies": {
     "babel-eslint": "^8.0.1",
     "babel-plugin-module-resolver": "^2.7.1",
