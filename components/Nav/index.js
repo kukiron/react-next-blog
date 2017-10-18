@@ -5,7 +5,7 @@ const Wrapper = styled.nav`
   padding: 15px;
   border-bottom: 1px solid #ddd;
   display: flex;
-  background: #387EF5;
+  background: #46a049;
 
   a {
     padding: 0 35px;
@@ -15,7 +15,7 @@ const Wrapper = styled.nav`
     transition: all 0.2s ease-in-out;
 
     &:hover {
-      background: #6ea0f7;
+      background: #71c174;
     }
   }
 `
