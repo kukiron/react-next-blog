@@ -15,19 +15,20 @@ const Wrapper = styled.div`
 
   h1 {
     color: #222;
-    font-weight: 300;
+    font-weight: bold;
     font-size: 1.75rem;
     line-height: 35px;
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
     margin: 0;
   }
 
   p {
+    padding-top: 10px;
     line-height: 28px;
     font-weight: 300;
     color: #666;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
   }
 `
 
