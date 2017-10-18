@@ -9,7 +9,7 @@ const Wrapper = styled.div`
     display: block;
 
     &:hover {
-      background: #F5F5F5;
+      background: #F1F1F1;
 
       h3 { color: #387EF5 }
     }
@@ -17,20 +17,21 @@ const Wrapper = styled.div`
 
   h3 {
     color: #222;
-    font-weight: 300;
+    font-weight: bold;
     font-size: 1.75rem;
     line-height: 35px;
-    font-family: Arial, sans-serif;
+    font-family: 'Montserrat', sans-serif;
     text-transform: capitalize;
     margin: 0;
   }
 
   p {
+    padding-top: 10px;
     font-size: 1.2rem;
     line-height: 35px;
     font-weight: 300;
     color: #444;
-    font-family: Arial, sans-serif;
+    font-family: 'Roboto', sans-serif;
     margin: 0;
   }
 `

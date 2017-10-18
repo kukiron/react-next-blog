@@ -5,17 +5,19 @@ const Wrapper = styled.nav`
   padding: 15px;
   border-bottom: 1px solid #ddd;
   display: flex;
+  justify-content: center;
   background: #46a049;
 
   a {
-    padding: 0 35px;
+    padding: 0 45px;
     line-height: 2rem;
+    font-family: 'Roboto', sans-serif;
     color: #FFF;
     text-decoration: none;
     transition: all 0.2s ease-in-out;
 
     &:hover {
-      background: #71c174;
+      background: #4eb151;
     }
   }
 `
