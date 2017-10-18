@@ -1,6 +1,8 @@
 {
   "name": "react-next-blog",
+  "version": "1.0.0",
   "description": "Production ready blog + boilerplate for Next.js",
+  "author": "Kafil Uddin Kiron",
   "license": "MIT",
   "scripts": {
     "dev": "node server.js",
