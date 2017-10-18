@@ -7,7 +7,7 @@ import Post from 'components/Post'
 const IndexPage = ({ posts }) =>
   <Layout>
     <ul>
-      {posts.map(p => <Post key={p.title} post={p} />)}
+      {posts.map(p => <Post key={p.title.rendered} post={p} />)}
     </ul>
   </Layout>
 
