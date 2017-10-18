@@ -5,5 +5,5 @@ export function getPosts () {
 }
 
 export function getPost (slug) {
-  return fetch(`https://www.akceed.com/wp-json/wp/v2/posts?title=${slug}`)
+  return fetch(`https://www.akceed.com/wp-json/wp/v2/posts?slug=${slug}`)
 }
