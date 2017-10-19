@@ -14,3 +14,5 @@ $ npm install
 $ npm run dev
 ```
 then move to ```localhost:3000```.
+
+Happy blogging! 👍
