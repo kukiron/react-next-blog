@@ -1,0 +1,52 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.14.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - lint-staged > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - babel-eslint > @babel/traverse > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - babel-plugin-styled-components > babel-types > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - next > @babel/core > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - next > write-file-webpack-plugin > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - standard > eslint > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - standard > eslint-plugin-import > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - babel-eslint > @babel/traverse > @babel/generator > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - next > styled-jsx > babel-types > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - next > @babel/preset-env > @babel/plugin-transform-block-scoping > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - next > webpack > async > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - standard > eslint > inquirer > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - standard > eslint > table > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - next > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - babel-eslint > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - next > @babel/preset-env > @babel/plugin-transform-modules-umd > @babel/helper-module-transforms > @babel/helper-simple-access > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - lint-staged > jest-validate > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - next > @babel/preset-env > @babel/plugin-transform-async-to-generator > @babel/helper-remap-async-to-generator > @babel/helper-wrap-function > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/template > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
+    - next > @babel/preset-env > @babel/plugin-transform-exponentiation-operator > @babel/helper-builder-binary-assignment-operator-visitor > @babel/helper-explode-assignable-expression > @babel/traverse > @babel/helper-function-name > @babel/helper-get-function-arity > @babel/types > lodash:
+        patched: '2020-04-30T21:12:57.462Z'
