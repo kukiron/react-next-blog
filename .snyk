@@ -1,0 +1,34 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - lint-staged > jest-validate > jest-config > jest-environment-jsdom > jsdom > request > extend:
+        patched: '2022-09-29T23:24:04.103Z'
+  SNYK-JS-LODASH-567746:
+    - lint-staged > lodash:
+        patched: '2022-09-29T23:24:04.103Z'
+    - babel-plugin-styled-components > babel-types > lodash:
+        patched: '2022-09-29T23:24:04.103Z'
+    - next > @babel/core > lodash:
+        patched: '2022-09-29T23:24:04.103Z'
+    - next > autodll-webpack-plugin > lodash:
+        patched: '2022-09-29T23:24:04.103Z'
+    - standard > eslint > lodash:
+        patched: '2022-09-29T23:24:04.103Z'
+    - standard > eslint-plugin-import > lodash:
+        patched: '2022-09-29T23:24:04.103Z'
+    - babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash:
+        patched: '2022-09-29T23:24:04.103Z'
+    - next > styled-jsx > babel-types > lodash:
+        patched: '2022-09-29T23:24:04.103Z'
+    - standard > eslint > inquirer > lodash:
+        patched: '2022-09-29T23:24:04.103Z'
+    - standard > eslint > table > lodash:
+        patched: '2022-09-29T23:24:04.103Z'
+    - lint-staged > jest-validate > jest-config > jest-environment-jsdom > jsdom > request-promise-native > request-promise-core > lodash:
+        patched: '2022-09-29T23:24:04.103Z'
+  'npm:stringstream:20180511':
+    - lint-staged > jest-validate > jest-config > jest-environment-jsdom > jsdom > request > stringstream:
+        patched: '2022-09-29T23:24:04.103Z'

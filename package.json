@@ -10,24 +10,27 @@
     "heroku-postbuild": "next build",
     "start": "NODE_PATH=. NODE_ENV=production node server.js",
     "lint": "standard 'api/*' 'components/*' 'layouts/*' 'pages/*' 'styles/*' 'routes.js' 'server.js'",
-    "precommit": "lint-staged"
+    "precommit": "lint-staged",
+    "prepare": "npm run snyk-protect",
+    "snyk-protect": "snyk-protect"
   },
   "engines": {
     "node": ">=6.0"
   },
   "dependencies": {
-    "babel-eslint": "^8.2.3",
+    "babel-eslint": "^9.0.0",
     "babel-plugin-module-resolver": "^3.1.1",
     "babel-plugin-styled-components": "^1.5.1",
     "express": "^4.16.3",
     "husky": "^0.14.3",
-    "lint-staged": "^7.1.0",
-    "next": "^8.0.0",
+    "lint-staged": "^10.2.0",
+    "next": "^11.1.0",
     "next-routes": "^1.4.1",
-    "react": "^16.3.2",
-    "react-dom": "^16.3.2",
-    "standard": "^11.0.1",
-    "styled-components": "^3.2.6"
+    "react": "^16.5.0",
+    "react-dom": "^16.5.0",
+    "standard": "^12.0.0",
+    "styled-components": "^4.0.0",
+    "@snyk/protect": "latest"
   },
   "standard": {
     "parser": "babel-eslint",
@@ -40,5 +43,6 @@
       "standard --fix",
       "git add"
     ]
-  }
+  },
+  "snyk": true
 }
